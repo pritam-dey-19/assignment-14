@@ -1,0 +1,53 @@
+body {
+  color: red;
+}
+.container {
+  text-align: center;
+}
+form {
+  margin-left: 500px;
+}
+.form-group {
+  width: 500px;
+}
+.form-control {
+  width: 500px;
+  height: 30px;
+  border-radius: 4px;
+  border: 2px solid rgb(128, 58, 0);
+  box-shadow: 10px 10px rgba rgba(30, 128, 0, 0.9),
+    -10px -10px rgba rgba(30, 128, 0, 0.9);
+  font-size: 19px;
+  padding: 14px;
+}
+.form-control:hover {
+  background-color: aqua;
+}
+.form-control:focus-within {
+  background-color: yellow;
+}
+p {
+  height: 10px;
+
+  font-weight: bold;
+  font-size: 20px;
+}
+.btn {
+  width: 200px;
+  height: 60px;
+  background-color: rgb(128, 111, 0);
+  color: white;
+  font-size: 20px;
+  border-radius: 7px;
+  border: transparent;
+}
+.btn:hover {
+  background-color: rgb(113, 128, 0);
+}
+.btn:focus-within {
+  background-color: blue;
+}
+.text-error {
+  font-size: 20px;
+  color: red;
+}
